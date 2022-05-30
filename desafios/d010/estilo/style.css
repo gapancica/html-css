@@ -57,6 +57,7 @@ header > p {
     font-family: var(--fonte-padrao);
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 30px;
     max-width: 600px;
     margin: auto;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.973);
@@ -65,7 +66,7 @@ header > p {
 nav {
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.199);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
 
 }
 
@@ -74,6 +75,7 @@ nav > a {
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
+    width: 100%;
 }
 
 nav > a:hover {
@@ -140,7 +142,7 @@ main p {
     text-align: justify;
     text-indent: 30px;
     font-size: 1.1em;
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 main strong {
@@ -188,7 +190,8 @@ aside > ul {
 footer {
     background-color: var(--cor5);
     padding: 5px;
-    font-size: 1em;
+    margin-top: 10px;
+    font-size: .8em;
     text-align: center;
     color: white;
 }

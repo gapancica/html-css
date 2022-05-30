@@ -2,25 +2,27 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 body {
     background-image: linear-gradient(to right, #D2FDFF, #3ABEFF);
+    background-attachment: fixed;
 }
 main {
     background-color: whitesmoke;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgb(69, 69, 179);
+    box-shadow: 5px 5px 15px rgba(69, 69, 179, 0.563);
     width: 600px;
     padding: 10px;
     margin: auto;
 }
 h1 {
-    color: #820933;
+    color: #ff1064;
     text-align: center;
-    text-shadow: 1px 1px 1px #3d0016;
+    text-shadow: 1px 1px 2px #4b001bad;
 }
 h2 {
-    color: #D84797;
+    color: #dd6baa;
 }
 p {
     text-align: justify;
